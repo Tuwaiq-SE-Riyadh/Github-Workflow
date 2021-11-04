@@ -6,7 +6,7 @@ Git Forking Workflow
 3. Clone `git clone FORKED_REPO_URL`
 4. Add upstream as a remote repository
    - `git remote -v `
-   - `git remote add upstream Original_URL`
+   - `git remote add upstream Organization_URL`
    - `git remote -v` you should see 2 origin and 2 upstream remotes 
 5. Create and checkout to a new feature branch
     - `git checkout -b Feature_Name`
